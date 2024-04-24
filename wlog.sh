@@ -22,7 +22,7 @@ check_create_and_append(){
 
 
 if [ -d "$FULLY_QUALIFIED_FOLDER_PATH" ]; then
-	echo "Folder structure exists"
+	echo "Folder structure for $FULLY_QUALIFIED_FOLDER_PATH exists. Will not create it..."
 	check_create_and_append
 	subl "$FULLY_QUALIFIED_FOLDER_PATH/$WL_FILE_NAME"
 else
