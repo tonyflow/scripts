@@ -1,0 +1,87 @@
+{
+    "workbench.editor.enablePreview": false,
+    "python.formatting.provider": "none",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "editor.wordWrapColumn": 100,
+    "editor.rulers": [
+
+        155
+    ],
+    "editor.renderWhitespace": "none",
+    "[restructuredtext]": {
+        "editor.formatOnType": true,
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 100,
+        "editor.wrappingIndent": "same",
+        "editor.tabCompletion": "off",
+        "emmet.triggerExpansionOnTab": false
+    },
+    "rewrap.wrappingColumn": 100,
+    "rewrap.reformat": true,
+    "docker.languageserver.formatter.ignoreMultilineInstructions": true,
+    "git.decorations.enabled": false,
+    "remote.SSH.defaultExtensions": [
+        "amazonwebservices.aws-toolkit-vscode"
+    ],
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "zenMode.fullScreen": false,
+    "editor.minimap.enabled": false,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+    "files.autoSave": "afterDelay",
+    "python-envs.pythonProjects": [
+
+    ],
+    "editor.inlineSuggest.enabled": false,
+    "go.toolsManagement.autoUpdate": true,
+    "aws.cloudformation.telemetry.enabled": false,
+    
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "backend"
+     ],
+    "editor.codeLens": true,
+    "python.defaultInterpreterPath": "/Users/niko/Workspace/dontpanic/.venv_mas/bin/python",
+    "cSpell.userWords": [
+        "amqp",
+        "cnpg",
+        "cxcywh",
+        "dataloading",
+        "ethonai",
+        "ethonrca",
+        "GUNICORN",
+        "healthcheck",
+        "httpclient",
+        "imread",
+        "imwrite",
+        "jsonnet",
+        "jupyterhub",
+        "karpenter",
+        "libsonnet",
+        "mnesia",
+        "ondelete",
+        "onupdate",
+        "pooler",
+        "stcore",
+        "storageclass",
+        "timescaledb",
+        "tolerations"
+    ],
+    "workbench.colorTheme": "Dracula Theme Soft",
+    "azureTerraform.survey": {
+        "surveyPromptDate": "2026-03-01T13:42:10.576Z",
+        "surveyPromptIgnoredCount": 0
+    },
+}
