@@ -1,4 +1,5 @@
 ## VSCode Keybindings
+```
 workbench.action.showAllSymbols: Find classes
 workbench.action.quickOpen: Find files
 workbench.view.explorer: go to project window
@@ -13,16 +14,20 @@ workbench.action.toggleZenMode: Remove side and bottom panes
 workbench.action.findInFiles: search entire workspace
 workbench.action.gotoLine: go to line
 workbench.action.showAllEditorsByMostRecentlyUsed: show list of recent editors
+```
 
 ## Settings
+```
 iach: true
 zenMode.fullScreen: false
 minimap: false. This disables the mini version of code usually shown on the right side of every editor
 github.copilot.inlineSuggest.enable: false
 files.autoSave: "afterDelay",
 files.autoSaveDelay: 1000 // (optional) save after 1 second of inactivity
+```
 
 ### Ruff based formatting
+```json
 "python.linting.enabled": true,
 "python.linting.flake8Enabled": false,
 "python.linting.pylintEnabled": false,
@@ -31,17 +36,22 @@ files.autoSaveDelay: 1000 // (optional) save after 1 second of inactivity
 "editor.codeActionsOnSave": {
   "source.fixAll": true
 }
+```
 
 ## pytest
+```json
 "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.testing.autoTestDiscoverOnSaveEnabled": true,
     "python.testing.pytestArgs": [
-        "."
+        "backend"
     ]
 
+```
 
+## Other
+```
 ruff.lint.enable
 editor.inlineSuggest.enabled
 editor.renderWhitespace: none
-
+```
