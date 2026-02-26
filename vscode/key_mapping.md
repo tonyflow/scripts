@@ -1,3 +1,9 @@
+## For `code_snippets.json`
+1. Configure Customer Snippets
+2. Choose `python.json`
+3. Add all the custom snippets.
+4. Try "main" and tab...
+
 ## VSCode Keybindings
 ```
 workbench.action.showAllSymbols: Find classes
