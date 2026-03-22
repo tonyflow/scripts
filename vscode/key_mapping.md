@@ -26,6 +26,7 @@ workbench.action.showAllEditorsByMostRecentlyUsed: show list of recent editors
 ```
 iach: true
 zenMode.fullScreen: false
+zenMode.centerLayout: false,
 minimap: false. This disables the mini version of code usually shown on the right side of every editor
 github.copilot.inlineSuggest.enable: false
 files.autoSave: "afterDelay",
